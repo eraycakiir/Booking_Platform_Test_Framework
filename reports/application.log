@@ -1,0 +1,345 @@
+2025-08-05 10:43:37.980 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:43:42.759 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:43:44.749 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:43:44.750 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:43:44.819 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying login page elements are displayed
+2025-08-05 10:43:44.848 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:43:45.051 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (8b34451714432125712cde68a55955a9)] -> xpath: //h5[text()='Login']]
+2025-08-05 10:43:45.074 [main] INFO  pages.LoginPage - Login page is displayed
+2025-08-05 10:43:45.079 [main] INFO  tests.ui.BaseTest - TEST INFO: Login page display test completed successfully
+2025-08-05 10:43:45.087 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:43:45.266 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:43:45.374 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:43:45.374 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:43:55.894 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:43:57.208 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:43:59.117 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:43:59.117 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:43:59.175 [main] INFO  tests.ui.BaseTest - TEST STEP: Performing login with valid credentials
+2025-08-05 10:43:59.203 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:43:59.412 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (fef22be72f419c7dfa5856b8517999fa)] -> name: username]
+2025-08-05 10:43:59.543 [main] INFO  pages.LoginPage - Username entered: Admin
+2025-08-05 10:43:59.555 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (fef22be72f419c7dfa5856b8517999fa)] -> name: password]
+2025-08-05 10:43:59.609 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:43:59.615 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (fef22be72f419c7dfa5856b8517999fa)] -> xpath: //button[@type='submit']]
+2025-08-05 10:43:59.662 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:43:59.662 [main] INFO  pages.LoginPage - Login performed for user: Admin
+2025-08-05 10:43:59.663 [main] INFO  pages.HomePage - HomePage initialized
+2025-08-05 10:44:00.900 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (fef22be72f419c7dfa5856b8517999fa)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:44:00.910 [main] INFO  pages.HomePage - Home page is displayed
+2025-08-05 10:44:00.918 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (fef22be72f419c7dfa5856b8517999fa)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:44:00.939 [main] INFO  pages.HomePage - Dashboard title: Dashboard
+2025-08-05 10:44:00.939 [main] INFO  tests.ui.BaseTest - TEST INFO: Successful login test completed
+2025-08-05 10:44:00.947 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:01.211 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:01.328 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:01.328 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:12.369 [main] INFO  tests.api.LoginApiTest - API test setup completed - Base URI: https://reqres.in
+2025-08-05 10:44:12.395 [main] INFO  tests.api.LoginApiTest - Starting successful API login test
+2025-08-05 10:44:24.844 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:26.313 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:28.221 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:28.221 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:28.276 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying login page elements are displayed
+2025-08-05 10:44:28.301 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:28.484 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (b049f66038b0a7300a67e000e21cf071)] -> xpath: //h5[text()='Login']]
+2025-08-05 10:44:28.504 [main] INFO  pages.LoginPage - Login page is displayed
+2025-08-05 10:44:28.511 [main] INFO  tests.ui.BaseTest - TEST INFO: Login page display test completed successfully
+2025-08-05 10:44:28.517 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:28.696 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:28.800 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:28.800 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:28.803 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:29.539 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:30.249 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:30.250 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:30.258 [main] INFO  tests.ui.BaseTest - TEST STEP: Performing login with valid credentials
+2025-08-05 10:44:30.259 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:31.752 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4c153ba8c2a1497e2af584bfb3e546ed)] -> name: username]
+2025-08-05 10:44:31.863 [main] INFO  pages.LoginPage - Username entered: Admin
+2025-08-05 10:44:31.876 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4c153ba8c2a1497e2af584bfb3e546ed)] -> name: password]
+2025-08-05 10:44:31.933 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:44:31.940 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (4c153ba8c2a1497e2af584bfb3e546ed)] -> xpath: //button[@type='submit']]
+2025-08-05 10:44:32.884 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:44:32.884 [main] INFO  pages.LoginPage - Login performed for user: Admin
+2025-08-05 10:44:32.886 [main] INFO  pages.HomePage - HomePage initialized
+2025-08-05 10:44:33.155 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4c153ba8c2a1497e2af584bfb3e546ed)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:44:33.166 [main] INFO  pages.HomePage - Home page is displayed
+2025-08-05 10:44:33.172 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4c153ba8c2a1497e2af584bfb3e546ed)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:44:33.192 [main] INFO  pages.HomePage - Dashboard title: Dashboard
+2025-08-05 10:44:33.193 [main] INFO  tests.ui.BaseTest - TEST INFO: Successful login test completed
+2025-08-05 10:44:33.198 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:33.404 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:33.501 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:33.501 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:33.503 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:34.250 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:36.173 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:36.173 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:36.175 [main] INFO  tests.ui.BaseTest - TEST STEP: Attempting login with invalid credentials
+2025-08-05 10:44:36.176 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:36.485 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4ac3c385ed517cb75e9f02975debf67c)] -> name: username]
+2025-08-05 10:44:36.597 [main] INFO  pages.LoginPage - Username entered: invaliduser
+2025-08-05 10:44:36.607 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4ac3c385ed517cb75e9f02975debf67c)] -> name: password]
+2025-08-05 10:44:36.661 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:44:36.667 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (4ac3c385ed517cb75e9f02975debf67c)] -> xpath: //button[@type='submit']]
+2025-08-05 10:44:37.305 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:44:37.557 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4ac3c385ed517cb75e9f02975debf67c)] -> xpath: //p[contains(@class,'oxd-alert-content-text')]]
+2025-08-05 10:44:37.581 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (4ac3c385ed517cb75e9f02975debf67c)] -> xpath: //p[contains(@class,'oxd-alert-content-text')]]
+2025-08-05 10:44:37.607 [main] INFO  pages.LoginPage - Error message retrieved: Invalid credentials
+2025-08-05 10:44:37.607 [main] INFO  tests.ui.BaseTest - TEST INFO: Invalid login test completed - Error message: Invalid credentials
+2025-08-05 10:44:37.608 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:37.771 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:37.870 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:37.870 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:37.872 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:38.596 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:39.300 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:39.301 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:39.307 [main] INFO  tests.ui.BaseTest - TEST STEP: Attempting login with empty credentials
+2025-08-05 10:44:39.308 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:40.857 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (39110fff06f32bb3c979a409df7ab1a4)] -> name: username]
+2025-08-05 10:44:40.905 [main] INFO  pages.LoginPage - Username entered: 
+2025-08-05 10:44:40.912 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (39110fff06f32bb3c979a409df7ab1a4)] -> name: password]
+2025-08-05 10:44:40.979 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:44:40.991 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (39110fff06f32bb3c979a409df7ab1a4)] -> xpath: //button[@type='submit']]
+2025-08-05 10:44:41.041 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:44:41.047 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (39110fff06f32bb3c979a409df7ab1a4)] -> xpath: //h5[text()='Login']]
+2025-08-05 10:44:41.057 [main] INFO  pages.LoginPage - Login page is displayed
+2025-08-05 10:44:41.057 [main] INFO  tests.ui.BaseTest - TEST INFO: Empty credentials login test completed
+2025-08-05 10:44:41.060 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:41.274 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:41.374 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:41.374 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:41.376 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:42.126 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:42.818 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:42.818 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:42.827 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing complete login-logout flow
+2025-08-05 10:44:42.829 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:44.320 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> name: username]
+2025-08-05 10:44:44.433 [main] INFO  pages.LoginPage - Username entered: Admin
+2025-08-05 10:44:44.449 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> name: password]
+2025-08-05 10:44:44.499 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:44:44.506 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> xpath: //button[@type='submit']]
+2025-08-05 10:44:44.552 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:44:44.552 [main] INFO  pages.LoginPage - Login performed for user: Admin
+2025-08-05 10:44:44.553 [main] INFO  pages.HomePage - HomePage initialized
+2025-08-05 10:44:45.755 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:44:45.766 [main] INFO  pages.HomePage - Home page is displayed
+2025-08-05 10:44:45.773 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> xpath: //p[@class='oxd-userdropdown-name']]
+2025-08-05 10:44:45.820 [main] INFO  pages.HomePage - User dropdown clicked
+2025-08-05 10:44:45.827 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> xpath: //a[text()='Logout']]
+2025-08-05 10:44:46.873 [main] INFO  pages.HomePage - Logged out successfully
+2025-08-05 10:44:46.873 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:47.115 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (0704abb4d4156f028bf567eabce79eb0)] -> xpath: //h5[text()='Login']]
+2025-08-05 10:44:47.126 [main] INFO  pages.LoginPage - Login page is displayed
+2025-08-05 10:44:47.126 [main] INFO  tests.ui.BaseTest - TEST INFO: Login-logout flow test completed successfully
+2025-08-05 10:44:47.128 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:47.318 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:47.420 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:47.420 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:44:47.421 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:44:48.097 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:44:50.024 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:44:50.024 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:44:50.027 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying menu navigation after login
+2025-08-05 10:44:50.028 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:44:50.305 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (cdfce03b2bfe9b1a3d4d479caa64e9b9)] -> name: username]
+2025-08-05 10:44:50.413 [main] INFO  pages.LoginPage - Username entered: Admin
+2025-08-05 10:44:50.432 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (cdfce03b2bfe9b1a3d4d479caa64e9b9)] -> name: password]
+2025-08-05 10:44:50.484 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:44:50.491 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (cdfce03b2bfe9b1a3d4d479caa64e9b9)] -> xpath: //button[@type='submit']]
+2025-08-05 10:44:51.499 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:44:51.499 [main] INFO  pages.LoginPage - Login performed for user: Admin
+2025-08-05 10:44:51.500 [main] INFO  pages.HomePage - HomePage initialized
+2025-08-05 10:44:51.804 [main] INFO  tests.ui.BaseTest - TEST INFO: Menu navigation test completed successfully
+2025-08-05 10:44:51.805 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:44:52.028 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:44:52.129 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:44:52.129 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 10:48:21.068 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 10:48:24.005 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 10:48:26.180 [main] INFO  tests.ui.BaseTest - Navigated to: https://opensource-demo.orangehrmlive.com
+2025-08-05 10:48:26.180 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 10:48:26.255 [main] INFO  tests.ui.BaseTest - TEST STEP: Performing login with valid credentials
+2025-08-05 10:48:26.288 [main] INFO  pages.LoginPage - LoginPage initialized
+2025-08-05 10:48:26.436 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (6c4ee6bacbef7d4208f66c0925a07f35)] -> name: username]
+2025-08-05 10:48:26.670 [main] INFO  pages.LoginPage - Username entered: Admin
+2025-08-05 10:48:26.679 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (6c4ee6bacbef7d4208f66c0925a07f35)] -> name: password]
+2025-08-05 10:48:26.801 [main] INFO  pages.LoginPage - Password entered
+2025-08-05 10:48:26.809 [main] DEBUG core.WaitHelper - Waiting for element to be clickable: [[ChromeDriver: chrome on mac (6c4ee6bacbef7d4208f66c0925a07f35)] -> xpath: //button[@type='submit']]
+2025-08-05 10:48:26.874 [main] INFO  pages.LoginPage - Login button clicked
+2025-08-05 10:48:26.874 [main] INFO  pages.LoginPage - Login performed for user: Admin
+2025-08-05 10:48:26.875 [main] INFO  pages.HomePage - HomePage initialized
+2025-08-05 10:48:28.098 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (6c4ee6bacbef7d4208f66c0925a07f35)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:48:28.108 [main] INFO  pages.HomePage - Home page is displayed
+2025-08-05 10:48:28.119 [main] DEBUG core.WaitHelper - Waiting for element to be visible: [[ChromeDriver: chrome on mac (6c4ee6bacbef7d4208f66c0925a07f35)] -> xpath: //h6[text()='Dashboard']]
+2025-08-05 10:48:28.149 [main] INFO  pages.HomePage - Dashboard title: Dashboard
+2025-08-05 10:48:28.149 [main] INFO  tests.ui.BaseTest - TEST INFO: Successful login test completed
+2025-08-05 10:48:28.165 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 10:48:28.595 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 10:48:28.706 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 10:48:28.706 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-05 11:26:51.293 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-05 11:26:54.246 [main] INFO  core.DriverFactory - WebDriver initialized successfully: chrome (Remote: false)
+2025-08-05 11:26:54.425 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.example.com
+2025-08-05 11:26:54.426 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-05 11:26:54.483 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying framework is working
+2025-08-05 11:26:54.498 [main] INFO  tests.ui.BaseTest - TEST INFO: Framework verification test completed successfully
+2025-08-05 11:26:54.508 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-05 11:26:54.748 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-05 11:26:54.954 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-05 11:26:54.955 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:01:14.175 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:01:14.208 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:01:28.759 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:01:32.142 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-07 11:01:32.915 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:01:33.093 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 11:01:33.194 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 11:01:33.194 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:01:46.598 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:01:47.967 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-07 11:01:48.790 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.google.com
+2025-08-07 11:01:48.790 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 11:01:48.820 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying framework works with Chrome browser
+2025-08-07 11:01:48.829 [main] INFO  tests.ui.BaseTest - TEST INFO: Page title: Google
+2025-08-07 11:01:48.830 [main] INFO  tests.ui.BaseTest - TEST INFO: Current URL: https://www.google.com/
+2025-08-07 11:01:48.830 [main] INFO  tests.ui.BaseTest - TEST INFO: Chrome framework verification test completed successfully
+2025-08-07 11:01:48.833 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:01:49.017 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 11:01:49.116 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 11:01:49.116 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:04:20.665 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:04:20.972 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:04:20.972 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:04:43.693 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:04:44.127 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:04:44.127 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:11:22.639 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:11:23.077 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:11:23.077 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:13:41.242 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:13:41.665 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:13:41.665 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:14:01.263 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:14:01.734 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:14:01.734 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:14:58.774 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:16:39.435 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:16:39.435 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:16:59.768 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:18:35.744 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:20:11.560 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:20:11.561 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:32:48.715 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:54:59.004 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:54:59.678 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:54:59.678 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 11:55:23.802 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 11:57:23.751 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 11:57:23.752 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 12:01:34.154 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:03:34.659 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 12:03:34.659 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 12:08:49.164 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:10:40.465 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 12:10:40.466 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 12:20:02.453 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:22:28.648 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:23:19.716 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:23:22.760 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-07 12:23:23.724 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.google.com
+2025-08-07 12:23:23.724 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 12:23:23.835 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying framework works with iOS app
+2025-08-07 12:23:23.869 [main] INFO  tests.ui.BaseTest - TEST INFO: iOS app launched successfully
+2025-08-07 12:23:23.869 [main] INFO  tests.ui.BaseTest - TEST INFO: Framework works with iOS!
+2025-08-07 12:23:23.869 [main] INFO  tests.ui.BaseTest - TEST INFO: iOS framework verification test completed successfully
+2025-08-07 12:23:23.879 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 12:23:24.187 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 12:23:24.459 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 12:23:24.460 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 12:24:00.182 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:25:34.560 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 12:28:50.680 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 12:28:50.681 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 14:02:30.959 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 14:02:37.283 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-07 14:02:37.399 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-07 14:02:37.399 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 14:02:37.478 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying framework works with iOS app
+2025-08-07 14:03:38.916 [main] INFO  tests.ui.BaseTest - TEST INFO: iOS app launched successfully
+2025-08-07 14:03:38.917 [main] INFO  tests.ui.BaseTest - TEST INFO: Framework works with iOS!
+2025-08-07 14:03:38.917 [main] INFO  tests.ui.BaseTest - TEST INFO: iOS framework verification test completed successfully
+2025-08-07 14:03:38.944 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 14:03:39.301 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 14:03:39.388 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 14:03:39.388 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 14:38:12.318 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 14:38:15.953 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-07 14:38:19.156 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-07 14:38:19.157 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 14:38:19.266 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-07 14:38:19.279 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-07 14:38:19.279 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-07 14:38:19.280 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-07 14:38:19.281 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-07 14:38:19.281 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-07 14:38:19.375 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-07 14:38:19.375 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-07 14:38:21.515 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-07 14:38:21.515 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-07 14:38:21.516 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-07 14:38:21.516 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: test.booking@gmail.com
+2025-08-07 14:38:21.681 [main] INFO  pages.web.WebLoginPage - Entered email: test.booking@gmail.com
+2025-08-07 14:38:21.681 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-07 14:38:21.681 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying login flow completed to email entry
+2025-08-07 14:38:21.690 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow test completed successfully - Email entry step reached
+2025-08-07 14:38:21.702 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 14:38:21.927 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 14:38:22.060 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 14:38:22.060 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-07 14:38:40.047 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 14:38:44.718 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-07 14:38:44.830 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-07 14:38:44.831 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 14:38:44.940 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-07 14:38:44.945 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-07 14:38:44.950 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-07 14:38:44.951 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-07 14:38:44.951 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-07 14:38:44.951 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-07 14:38:46.244 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-07 14:38:46.245 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-07 14:40:05.647 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-07 14:40:11.387 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-07 14:40:11.387 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-07 14:40:11.387 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-07 14:40:11.476 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-07 14:40:11.482 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-07 14:40:11.488 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-07 14:40:11.489 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-07 14:40:11.489 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-07 14:40:11.489 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-07 14:40:11.827 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-07 14:40:11.827 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-07 14:40:13.292 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-07 14:40:13.292 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-07 14:40:13.292 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-07 14:40:13.292 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-07 14:40:13.529 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-07 14:40:14.709 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-07 14:40:14.710 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-07 14:40:14.710 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-07 14:40:15.749 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' button
+2025-08-07 14:40:15.749 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-07 14:40:15.750 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: test.booking@gmail.com
+2025-08-07 14:40:17.306 [main] INFO  pages.ios.IOSLoginPage - Entered email: test.booking@gmail.com
+2025-08-07 14:40:17.306 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-07 14:40:17.306 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying login flow completed to email entry
+2025-08-07 14:40:38.440 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow test completed successfully - Email entry step reached
+2025-08-07 14:40:38.475 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-07 14:40:38.752 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-07 14:40:38.786 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-07 14:40:38.786 [main] INFO  tests.ui.BaseTest - Test cleanup completed

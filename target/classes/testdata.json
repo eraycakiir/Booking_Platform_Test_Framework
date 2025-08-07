@@ -1,0 +1,94 @@
+{
+  "users": {
+    "adminUser": {
+      "username": "mifos",
+      "password": "password",
+      "fullName": "MifosX Admin",
+      "role": "Admin"
+    },
+    "bankManager": {
+      "username": "manager",
+      "password": "password123",
+      "fullName": "Bank Manager",
+      "role": "Manager"
+    },
+    "loanOfficer": {
+      "username": "officer",
+      "password": "password123",
+      "fullName": "Loan Officer",
+      "role": "Loan Officer"
+    },
+    "invalidUser": {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "fullName": "Invalid User"
+    }
+  },
+  "environments": {
+    "test": {
+      "baseUrl": "https://demo.fineract.dev",
+      "apiUrl": "https://demo.fineract.dev/fineract-provider/api/v1"
+    },
+    "dev": {
+      "baseUrl": "https://dev.fineract.dev",
+      "apiUrl": "https://dev.fineract.dev/fineract-provider/api/v1"
+    },
+    "staging": {
+      "baseUrl": "https://staging.fineract.dev",
+      "apiUrl": "https://staging.fineract.dev/fineract-provider/api/v1"
+    }
+  },
+  "testData": {
+    "loginPage": {
+      "expectedTitle": "Mifos X",
+      "loginUrl": "/community-app/",
+      "dashboardUrl": "/community-app/#/dashboard"
+    },
+    "errorMessages": {
+      "invalidCredentials": "Authentication failed",
+      "emptyUsername": "Username is required",
+      "emptyPassword": "Password is required"
+    },
+    "timeouts": {
+      "shortWait": 5,
+      "mediumWait": 10,
+      "longWait": 30
+    }
+  },
+  "bankingModules": {
+    "clients": {
+      "createClientUrl": "/community-app/#/createclient",
+      "clientsListUrl": "/community-app/#/clients"
+    },
+    "loans": {
+      "createLoanUrl": "/community-app/#/createloan",
+      "loansListUrl": "/community-app/#/loans"
+    },
+    "savings": {
+      "createSavingsUrl": "/community-app/#/createsavingsaccount",
+      "savingsListUrl": "/community-app/#/savingsaccounts"
+    },
+    "accounting": {
+      "journalEntriesUrl": "/community-app/#/journalentries",
+      "chartOfAccountsUrl": "/community-app/#/chartofaccounts"
+    }
+  },
+  "apiTestData": {
+    "endpoints": {
+      "authentication": "/authentication",
+      "clients": "/clients",
+      "loans": "/loans",
+      "savingsaccounts": "/savingsaccounts",
+      "staff": "/staff",
+      "offices": "/offices"
+    },
+    "validApiUser": {
+      "username": "mifos",
+      "password": "password"
+    },
+    "invalidApiUser": {
+      "username": "invalid",
+      "password": "wrong"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Automation Suite" parallel="none" thread-count="1" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="test"/>
+
+    <listeners>
+        <listener class-name="listeners.ScreenshotListener"/>
+        <listener class-name="listeners.LoggerListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <!-- UI Tests Suite -->
+    <test name="UI Login Tests" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Parallel UI Tests Suite -->
+    <test name="Parallel UI Tests" parallel="methods" thread-count="2" preserve-order="false">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="parallel"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- API Tests Suite -->
+    <test name="API Tests" preserve-order="true">
+        <groups>
+            <run>
+                <include name="api"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.api.LoginApiTest"/>
+        </classes>
+    </test>
+
+    <!-- Cross Browser Tests -->
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Smoke Tests -->
+    <test name="Smoke Tests">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.ui"/>
+        </packages>
+    </test>
+
+    <!-- Regression Tests -->
+    <test name="Regression Tests">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.ui"/>
+            <package name="tests.api"/>
+        </packages>
+    </test>
+
+</suite>
