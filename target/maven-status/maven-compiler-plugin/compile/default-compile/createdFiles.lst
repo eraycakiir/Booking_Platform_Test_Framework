@@ -1,7 +1,6 @@
 core/WaitHelper.class
 core/ConfigReader.class
 pages/web/WebHomePage.class
-core/DriverFactory.class
 interfaces/IHomePage.class
 pages/web/WebLoginPage.class
 factory/PageFactory.class

@@ -14,6 +14,7 @@
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/interfaces/IHomePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/factory/PageFactory.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/web/WebLoginPage.java
+/Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/web/WebLocators.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/BasePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/web/WebHomePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/core/DriverFactory.java

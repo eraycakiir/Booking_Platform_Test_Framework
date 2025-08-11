@@ -8,13 +8,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.safari.SafariDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -90,17 +85,6 @@ public class DriverFactory {
                 WebDriverManager.chromedriver().setup();
                 return new ChromeDriver(getChromeOptions());
             
-            case FIREFOX:
-                WebDriverManager.firefoxdriver().setup();
-                return new FirefoxDriver(getFirefoxOptions());
-            
-            case EDGE:
-                WebDriverManager.edgedriver().setup();
-                return new EdgeDriver(getEdgeOptions());
-            
-            case SAFARI:
-                return new SafariDriver();
-            
             default:
                 throw new IllegalArgumentException("Unsupported browser type: " + browserType);
         }
@@ -116,12 +100,6 @@ public class DriverFactory {
             switch (browserType) {
                 case CHROME:
                     return new RemoteWebDriver(hubUrl, getChromeOptions());
-                
-                case FIREFOX:
-                    return new RemoteWebDriver(hubUrl, getFirefoxOptions());
-                
-                case EDGE:
-                    return new RemoteWebDriver(hubUrl, getEdgeOptions());
                 
                 default:
                     throw new IllegalArgumentException("Unsupported browser type for remote execution: " + browserType);
@@ -162,40 +140,7 @@ public class DriverFactory {
         return options;
     }
 
-    /**
-     * Get Firefox options with common configurations
-     */
-    private static FirefoxOptions getFirefoxOptions() {
-        FirefoxOptions options = new FirefoxOptions();
-        
-        if (ConfigReader.isHeadless()) {
-            options.addArguments("--headless");
-        }
-        
-        options.addArguments("--width=1920", "--height=1080");
-        
-        return options;
-    }
-
-    /**
-     * Get Edge options with common configurations
-     */
-    private static EdgeOptions getEdgeOptions() {
-        EdgeOptions options = new EdgeOptions();
-        
-        if (ConfigReader.isHeadless()) {
-            options.addArguments("--headless=new");
-        }
-        
-        options.addArguments(
-            "--no-sandbox",
-            "--disable-dev-shm-usage",
-            "--disable-gpu",
-            "--window-size=1920,1080"
-        );
-        
-        return options;
-    }
+    // Removed other browsers (Firefox/Edge/Safari) – Chrome only
 
     /**
      * Create iOS AppiumDriver instance

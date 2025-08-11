@@ -14,16 +14,11 @@ public class WebLoginPage extends WebBasePage implements ILoginPage {
     private static final Logger logger = LogManager.getLogger(WebLoginPage.class);
 
     // Locators
-    private final By usernameFieldLocator = By.id("username");
-    private final By continueWithEmailButton = By.xpath(
-            "//button[.//span[normalize-space(text())='Continue with email']]|"
-            + "//span[normalize-space(text())='Continue with email']/ancestor::button[1]");
-    private final By multiCodeInputAny = By.cssSelector("input[name^='code_']");
-    private final By singleCodeFieldLocator = By.cssSelector("input[name='code'], input[name='otp'], input[data-testid='verification-code']");
-    private final By verifyEmailButton = By.xpath(
-            "//button[.//span[normalize-space(text())='Verify email']]|"
-            + "//span[normalize-space(text())='Verify email']/ancestor::button[1]");
-    private final By accountHeaderAvatar = By.cssSelector("button[aria-label='Account menu'], [data-testid='header-profile']");
+    private final By usernameFieldLocator = WebLocators.USERNAME_FIELD;
+    private final By continueWithEmailButton = WebLocators.CONTINUE_WITH_EMAIL;
+    private final By multiCodeInputAny = WebLocators.MULTI_CODE_ANY;
+    private final By verifyEmailButton = WebLocators.VERIFY_EMAIL_BUTTON;
+    private final By accountHeaderAvatar = WebLocators.ACCOUNT_AVATAR;
 
     // Constructor
     public WebLoginPage() {

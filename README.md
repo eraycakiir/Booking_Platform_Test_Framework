@@ -1,6 +1,6 @@
 # 🏨 Booking.com Platform Test Automation Framework
 
-Modern, platform-independent test automation framework for Booking.com with support for both Web (Chrome) and iOS (real device) testing using a unified codebase.
+Modern, platform-independent test automation framework for Booking.com with support ONLY for Web (Chrome) and iOS (real device) using a unified codebase.
 
 ## 🎯 About This Framework
 
@@ -8,6 +8,7 @@ This framework provides comprehensive test automation for Booking.com platform a
 
 ## 📋 Key Features
 
+- ✅ **Supported Targets**: Web (Chrome) and iOS (real device)
 - ✅ **Platform-Independent Architecture**: Same test code runs on Web and iOS
 - ✅ **Interface-Based Design**: 85-90% code sharing between platforms
 - ✅ **Web Automation**: Chrome browser with Selenium WebDriver
@@ -27,7 +28,7 @@ This framework provides comprehensive test automation for Booking.com platform a
 |------------|---------|---------|
 | Java | 17+ | Programming Language |
 | Maven | 3.8+ | Build Management |
-| Selenium WebDriver | 4.20.0 | Web Browser Automation |
+| Selenium WebDriver | 4.20.0 | Web Browser Automation (Chrome only) |
 | Appium | 9.3.0 | iOS Mobile Automation |
 | TestNG | 7.8.0 | Test Framework |
 | Allure | 2.24.0 | Test Reporting |
@@ -63,7 +64,7 @@ Booking_Platform_Test_Framework/
 ├── src/test/java/
 │   ├── tests/ui/
 │   │   ├── BaseTest.java        # Platform-independent base test
-│   │   └── LoginFlowTest.java   # Login flow tests (works on both platforms)
+│   │   └── LoginTest.java       # Login flow test (works on both platforms)
 │   └── listeners/               # TestNG listeners
 ├── src/main/resources/
 │   ├── config.properties        # Configuration file
@@ -114,10 +115,10 @@ appium.server.url=http://localhost:4723
 
 ### 4. Run Tests
 
-#### Web Platform (Chrome):
+#### Web Platform (Chrome only):
 ```bash
-# Set platform to web in config.properties
-mvn clean test -Dtest=LoginFlowTest#testLoginFlowToEmailEntry
+# Recommended: override platform via system property
+mvn clean test -Dplatform=web -Dtest=tests.ui.LoginTest#testLoginFlowToEmailEntry
 ```
 
 #### iOS Platform (Real Device):
@@ -125,8 +126,8 @@ mvn clean test -Dtest=LoginFlowTest#testLoginFlowToEmailEntry
 # Start Appium server first
 appium
 
-# Set platform to ios in config.properties
-mvn clean test -Dtest=LoginFlowTest#testLoginFlowToEmailEntry
+# Recommended: override platform via system property
+mvn clean test -Dplatform=ios -Dtest=tests.ui.LoginTest#testLoginFlowToEmailEntry
 ```
 
 ## 🧪 Platform-Independent Testing
@@ -190,18 +191,17 @@ public void testLoginFlowToEmailEntry() {
 
 ## 📊 Test Execution Examples
 
-### Web Testing
+### Web Testing (Chrome)
 ```bash
-# Set platform=web in config.properties
-mvn clean test -Dtest=LoginFlowTest
+# Run web login test
+mvn clean test -Dplatform=web -Dtest=tests.ui.LoginTest#testLoginFlowToEmailEntry
 # Result: Opens Chrome → Booking.com → Login flow
 ```
 
 ### iOS Testing
 ```bash
-# Set platform=ios in config.properties
 # Start Appium server: appium
-mvn clean test -Dtest=LoginFlowTest
+mvn clean test -Dplatform=ios -Dtest=tests.ui.LoginTest#testLoginFlowToEmailEntry
 # Result: Opens Booking app → Login flow
 ```
 
@@ -213,7 +213,7 @@ Simply change `platform=web|ios` in config.properties - same tests run on differ
 1. **Single Codebase**: Write once, test everywhere
 2. **Reduced Maintenance**: Fix once, applies to all platforms
 3. **Consistent Testing**: Same test logic ensures consistent coverage
-4. **Easy Platform Addition**: Add Android by implementing interfaces
+4. **Strict Scope**: Android, Edge, Safari, Firefox are out of scope
 5. **Scalable Architecture**: Clean separation of concerns
 
 ## 📞 Support

@@ -3,7 +3,6 @@ package tests.ui;
 import factory.PageFactory;
 import interfaces.IHomePage;
 import interfaces.ILoginPage;
-import core.DriverFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.qameta.allure.*;
@@ -95,54 +94,5 @@ public class LoginTest extends BaseTest {
         logInfo("Login flow executed");
     }
     
-    @Test(priority = 2, description = "Test different email addresses")
-    @Story("Email Validation")
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Test login flow with different email formats")
-    public void testLoginWithDifferentEmails() {
-        logStep("Testing login with different email formats");
-        
-        String[] testEmails = {
-            "web.test@gmail.com",
-            "ios.test@gmail.com", 
-            "automation.test@booking.com"
-        };
-        
-        for (String email : testEmails) {
-            logStep("Testing with email: " + email);
-            
-            IHomePage homePage = PageFactory.getHomePage();
-            ILoginPage loginPage = PageFactory.getLoginPage();
-            
-            // Navigate through login flow
-            homePage.clickSignInButton();
-            
-            if ("ios".equals(PageFactory.getCurrentPlatform().getPlatformName())) {
-                loginPage.clickSignInOrRegister();
-                loginPage.clickContinueWithEmail();
-            }
-            
-            loginPage.enterEmail(email);
-            logInfo("Successfully entered email: " + email);
-            
-            // Refresh page for next iteration
-            refreshForNextTest();
-        }
-        
-        logInfo("Different email test completed successfully");
-    }
-    
-    /**
-     * Helper method to refresh page between tests
-     */
-    private void refreshForNextTest() {
-        try {
-            Thread.sleep(2000); // Wait a bit
-            // Navigate back to home for next test
-            DriverFactory.getDriver().navigate().refresh();
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-    }
+    // Removed email-format iteration test to avoid state coupling and sleeps
 }

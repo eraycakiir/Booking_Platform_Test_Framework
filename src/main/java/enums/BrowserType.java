@@ -4,11 +4,7 @@ package enums;
  * Enum for supported browser types
  */
 public enum BrowserType {
-    CHROME("chrome"),
-    FIREFOX("firefox"),
-    EDGE("edge"),
-    SAFARI("safari"),
-    REMOTE("remote");
+    CHROME("chrome");
 
     private final String browserName;
 
@@ -26,6 +22,6 @@ public enum BrowserType {
                 return type;
             }
         }
-        throw new IllegalArgumentException("Unsupported browser: " + browser);
+        throw new IllegalArgumentException("Unsupported browser: " + browser + ". Supported: chrome");
     }
 }

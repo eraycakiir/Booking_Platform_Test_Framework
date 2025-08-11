@@ -14,7 +14,7 @@ public class WebHomePage extends WebBasePage implements IHomePage {
     private static final Logger logger = LogManager.getLogger(WebHomePage.class);
 
     // Locators
-    private final By signInButtonLocator = By.cssSelector("[data-testid='header-sign-in-button']");
+    private final By signInButtonLocator = WebLocators.SIGN_IN_BUTTON;
     private final By cookieAcceptButton = By.cssSelector("#onetrust-accept-btn-handler, [data-testid='cookie-accept']");
 
     // Constructor

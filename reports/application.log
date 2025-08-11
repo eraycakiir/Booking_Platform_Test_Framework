@@ -1312,3 +1312,42 @@ Session ID: f9bbe119012489d28bec86a7e13baf9c
 2025-08-11 14:08:55.052 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
 2025-08-11 14:08:55.090 [main] INFO  core.DriverFactory - WebDriver closed successfully
 2025-08-11 14:08:55.090 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 14:47:23.259 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 14:47:27.081 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 14:47:28.160 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 14:47:28.160 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 14:47:28.233 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 14:47:28.238 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 14:47:28.239 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 14:47:28.239 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 14:47:28.239 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 14:47:28.239 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 14:47:30.677 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 14:47:30.677 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 14:47:32.687 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 14:47:33.008 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 14:47:33.010 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 14:47:33.010 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 14:47:33.533 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 14:47:33.685 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 14:47:33.685 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 14:47:33.876 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 14:47:34.011 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 14:47:34.012 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 14:47:44.031 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 14:47:51.403 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 14:47:51.405 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=WY776Y
+2025-08-11 14:47:51.406 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 14:47:53.513 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 14:47:53.686 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 14:48:14.426 [main] WARN  pages.web.WebLoginPage - Account avatar not visible after verification: Expected condition failed: waiting for visibility of element located by By.cssSelector: button[aria-label='Account menu'], [data-testid='header-profile'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61113/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5b6e894b55f3b0f12d07c3f192a57d4
+2025-08-11 14:48:14.428 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 14:48:14.460 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 14:48:14.695 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 14:48:14.924 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 14:48:14.924 [main] INFO  tests.ui.BaseTest - Test cleanup completed

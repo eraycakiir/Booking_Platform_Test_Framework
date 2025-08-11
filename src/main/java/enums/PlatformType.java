@@ -5,8 +5,7 @@ package enums;
  */
 public enum PlatformType {
     WEB("web"),
-    IOS("ios"),
-    ANDROID("android");
+    IOS("ios");
 
     private final String platformName;
 
@@ -24,6 +23,6 @@ public enum PlatformType {
                 return type;
             }
         }
-        throw new IllegalArgumentException("Unsupported platform: " + platform);
+        throw new IllegalArgumentException("Unsupported platform: " + platform + ". Supported: web, ios");
     }
 }
