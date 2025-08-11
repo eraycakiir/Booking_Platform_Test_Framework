@@ -343,3 +343,972 @@
 2025-08-07 14:40:38.752 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
 2025-08-07 14:40:38.786 [main] INFO  core.DriverFactory - WebDriver closed successfully
 2025-08-07 14:40:38.786 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 10:27:40.207 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:27:43.291 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:27:45.121 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:27:45.121 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:27:45.282 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 10:27:45.300 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:27:45.301 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:27:45.303 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:27:45.304 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:27:45.304 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 10:27:45.403 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 10:27:45.404 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 10:27:47.376 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:27:47.377 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 10:27:47.377 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 10:27:47.378 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: test.booking@gmail.com
+2025-08-11 10:27:47.549 [main] INFO  pages.web.WebLoginPage - Entered email: test.booking@gmail.com
+2025-08-11 10:27:47.549 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 10:27:47.549 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 10:32:14.109 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:32:15.984 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 10:32:15.984 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 10:32:15.994 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:32:16.447 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 10:32:16.447 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 10:33:42.573 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:33:45.361 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:33:47.122 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:33:47.122 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:33:47.219 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 10:33:47.227 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:33:47.227 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:33:47.228 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:33:47.228 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:33:47.228 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 10:33:47.314 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 10:33:47.314 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 10:33:50.475 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:33:50.476 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 10:33:50.477 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 10:33:50.477 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: test.booking@gmail.com
+2025-08-11 10:33:50.648 [main] INFO  pages.web.WebLoginPage - Entered email: test.booking@gmail.com
+2025-08-11 10:33:50.648 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 10:33:50.648 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 10:38:05.934 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:38:08.641 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:38:09.568 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:38:09.568 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:38:09.624 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 10:38:09.631 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:38:09.631 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:38:09.632 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:38:09.632 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:38:09.632 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 10:38:11.950 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 10:38:11.951 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 10:38:13.652 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:38:13.652 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 10:38:13.652 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 10:38:13.653 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 10:38:13.784 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 10:38:13.784 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 10:38:13.785 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 10:42:21.456 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:42:23.914 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:42:25.596 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:42:25.597 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:42:26.056 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 10:42:26.068 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:42:26.068 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:42:26.069 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:42:26.070 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:42:26.070 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 10:42:26.208 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 10:42:26.208 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 10:42:27.870 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:42:27.871 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 10:42:27.871 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 10:42:27.872 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 10:42:28.230 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 10:42:28.231 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 10:42:28.231 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 10:45:29.419 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 10:45:29.785 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 10:45:30.228 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 10:45:30.229 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 10:45:30.263 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:45:31.996 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:45:37.094 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:45:37.094 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:45:37.101 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing login with different email formats
+2025-08-11 10:45:37.101 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: web.test@gmail.com
+2025-08-11 10:45:37.101 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:45:37.101 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:45:37.101 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:45:37.101 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:45:39.753 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:45:40.037 [main] INFO  pages.web.WebLoginPage - Entered email: web.test@gmail.com
+2025-08-11 10:45:40.038 [main] INFO  tests.ui.BaseTest - TEST INFO: Successfully entered email: web.test@gmail.com
+2025-08-11 10:45:44.807 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: ios.test@gmail.com
+2025-08-11 10:45:44.808 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:45:44.809 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:45:44.809 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:45:44.810 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:45:54.871 [main] ERROR pages.web.WebHomePage - Failed to click sign in button: Expected condition failed: waiting for element to be clickable: By.cssSelector: [data-testid='header-sign-in-button'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51798/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6f90bac1d5bebcc75b3d115c56e1fa3
+2025-08-11 10:45:54.878 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 10:45:55.055 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 10:45:55.302 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 10:45:55.302 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 10:54:23.689 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 10:54:26.769 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 10:54:27.942 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 10:54:27.943 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 10:54:27.998 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 10:54:28.005 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:54:28.005 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 10:54:28.006 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 10:54:28.006 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 10:54:28.006 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 10:54:30.437 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 10:54:30.437 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 10:54:32.136 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 10:54:32.136 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 10:54:32.136 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 10:54:32.136 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 10:54:32.271 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 10:54:32.272 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 10:54:32.272 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 10:54:32.286 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 10:54:33.406 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:37.100 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:40.774 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:44.407 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:48.028 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:51.703 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:55.349 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:54:58.982 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:02.671 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:06.292 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:09.932 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:13.570 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:17.220 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 10:55:22.480 [main] WARN  utils.EmailService - Email fetch attempt failed: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+2025-08-11 11:27:04.730 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:27:07.523 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:27:08.738 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:27:08.739 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:27:08.805 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:27:08.810 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:08.810 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:27:08.811 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:08.811 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:27:08.811 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:27:11.236 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:27:11.237 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:27:12.860 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:27:12.860 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:27:12.861 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:27:12.861 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:27:13.005 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:27:13.005 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:27:13.005 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:27:13.019 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:27:17.167 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 11:27:17.169 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:27:27.249 [main] ERROR pages.web.WebLoginPage - Failed to enter verification code: Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name='code'], input[name='otp'], input[data-testid='verification-code'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52822/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da07e893dbbc9c4fab21cb823ac03e56
+2025-08-11 11:27:27.294 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:27:27.573 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:27:27.889 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:27:27.889 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:27:27.893 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:27:29.315 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:27:31.020 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:27:31.021 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:27:31.041 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing login with different email formats
+2025-08-11 11:27:31.042 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: web.test@gmail.com
+2025-08-11 11:27:31.042 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:31.042 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:27:31.042 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:31.042 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:27:33.042 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:27:33.215 [main] INFO  pages.web.WebLoginPage - Entered email: web.test@gmail.com
+2025-08-11 11:27:33.216 [main] INFO  tests.ui.BaseTest - TEST INFO: Successfully entered email: web.test@gmail.com
+2025-08-11 11:27:37.987 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: ios.test@gmail.com
+2025-08-11 11:27:37.989 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:37.989 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:27:37.989 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:27:37.990 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:27:48.027 [main] ERROR pages.web.WebHomePage - Failed to click sign in button: Expected condition failed: waiting for element to be clickable: By.cssSelector: [data-testid='header-sign-in-button'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52955/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f433937001d100647db716d7dcb3062
+2025-08-11 11:27:48.042 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:27:48.440 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:27:49.498 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:27:49.499 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:38:08.961 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:38:11.871 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:38:13.678 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:38:13.678 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:38:13.752 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:38:13.758 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:13.758 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:38:13.758 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:13.759 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:38:13.759 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:38:13.817 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:38:13.817 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:38:15.654 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:38:15.655 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:38:15.655 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:38:15.655 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:38:16.132 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:38:16.132 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:38:16.132 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:38:16.140 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:38:17.864 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 11:38:17.865 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:38:37.966 [main] ERROR pages.web.WebLoginPage - Failed to enter verification code: Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name='code'], input[name='otp'], input[data-testid='verification-code'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53381/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8db8dccba07cdc58deea9cf6e69b7edb
+2025-08-11 11:38:38.004 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:38:38.209 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:38:38.490 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:38:38.491 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:38:38.502 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:38:39.979 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:38:41.700 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:38:41.701 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:38:41.706 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing login with different email formats
+2025-08-11 11:38:41.707 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: web.test@gmail.com
+2025-08-11 11:38:41.707 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:41.707 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:38:41.707 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:41.707 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:38:43.521 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:38:44.242 [main] INFO  pages.web.WebLoginPage - Entered email: web.test@gmail.com
+2025-08-11 11:38:44.243 [main] INFO  tests.ui.BaseTest - TEST INFO: Successfully entered email: web.test@gmail.com
+2025-08-11 11:38:49.045 [main] INFO  tests.ui.BaseTest - TEST STEP: Testing with email: ios.test@gmail.com
+2025-08-11 11:38:49.046 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:49.046 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:38:49.046 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:38:49.046 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:41:18.837 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:41:20.948 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:41:21.870 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:41:21.870 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:41:21.923 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:41:21.927 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:41:21.927 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:41:21.928 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:41:21.928 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:41:21.928 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:41:24.512 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:41:24.514 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:41:26.089 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:41:26.089 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:41:26.090 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:41:26.090 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:41:26.229 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:41:26.229 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:41:26.229 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:41:26.653 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:41:26.654 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:41:26.654 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:41:26.665 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:41:27.966 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 11:41:27.966 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:41:28.191 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 11:41:28.227 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 11:41:28.227 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 11:41:28.238 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:41:28.383 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:41:28.602 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:41:28.602 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:42:52.230 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:42:54.266 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:42:56.002 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:42:56.002 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:42:56.081 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:42:56.087 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:42:56.087 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:42:56.088 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:42:56.088 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:42:56.088 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:42:56.170 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:42:56.170 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:42:57.844 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:42:57.844 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:42:57.844 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:42:57.844 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:42:57.978 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:42:57.978 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:42:57.978 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:42:58.027 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:42:58.027 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:42:58.027 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:42:58.035 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:42:59.535 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 11:42:59.535 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:42:59.764 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 11:42:59.806 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 11:43:20.391 [main] WARN  pages.web.WebLoginPage - Account avatar not visible after verification: Expected condition failed: waiting for visibility of element located by By.cssSelector: button[aria-label='Account menu'], [data-testid='header-profile'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53804/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c92e856a4465c848b8a0c506e0e367f7
+2025-08-11 11:43:20.393 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 11:43:20.421 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:43:20.623 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:43:20.823 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:43:20.824 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:44:22.174 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:44:24.343 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:44:26.090 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:44:26.091 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:44:26.166 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:44:26.172 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:44:26.172 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:44:26.173 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:44:26.174 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:44:26.174 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:44:26.227 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:44:26.228 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:44:27.841 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:44:27.842 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:44:27.842 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:44:27.842 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:44:28.334 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:44:28.335 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:44:28.335 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:44:28.394 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:44:28.394 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:44:28.394 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:44:28.412 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:44:29.799 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: C76DGW
+2025-08-11 11:44:29.799 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:44:30.093 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 11:44:30.135 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 11:44:50.745 [main] WARN  pages.web.WebLoginPage - Account avatar not visible after verification: Expected condition failed: waiting for visibility of element located by By.cssSelector: button[aria-label='Account menu'], [data-testid='header-profile'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53987/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 278ea44fb772e6f87969e5b7705d3958
+2025-08-11 11:44:50.748 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 11:44:50.775 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:44:50.980 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:44:51.120 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:44:51.121 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 11:46:25.756 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:46:29.468 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:46:30.453 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:46:30.453 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:46:30.543 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:46:30.552 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:46:30.552 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:46:30.553 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:46:30.553 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:46:30.553 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:46:32.917 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:46:32.917 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:46:35.044 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:46:35.045 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:46:35.046 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:46:35.046 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:46:35.218 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:46:35.218 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:46:35.218 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:46:35.723 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:46:35.727 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:46:35.728 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:46:35.748 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:46:37.076 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:37.247 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:41.444 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:41.607 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:45.808 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:45.968 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:50.129 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:50.287 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:54.520 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:54.690 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:58.804 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:46:58.957 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:03.052 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:03.242 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:07.408 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:07.575 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:11.800 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:11.953 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:16.100 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:16.259 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:20.521 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:20.698 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:24.870 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:25.019 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:29.282 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:29.450 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:33.575 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:33.728 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:38.083 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:47:38.253 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:48:43.243 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:48:45.423 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:48:47.291 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:48:47.291 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:48:47.361 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:48:47.367 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:48:47.367 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:48:47.368 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:48:47.368 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:48:47.368 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:48:47.396 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:48:47.396 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:48:49.414 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:48:49.415 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:48:49.415 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:48:49.416 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:48:49.884 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:48:49.884 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:48:49.885 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:48:49.964 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:48:49.964 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:48:59.970 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:48:59.997 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:49:01.367 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:01.525 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:05.778 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:05.954 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:10.199 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:10.361 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:15.949 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:16.104 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:20.305 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:20.464 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:24.692 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:49:24.941 [main] WARN  utils.EmailService - Scan messages error: No group 1
+2025-08-11 11:50:23.376 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 11:50:25.663 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 11:50:26.714 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 11:50:26.715 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 11:50:26.772 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 11:50:26.778 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:50:26.779 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 11:50:26.779 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 11:50:26.779 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 11:50:26.780 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 11:50:29.241 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 11:50:29.241 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 11:50:30.858 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 11:50:30.858 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 11:50:30.858 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 11:50:30.858 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 11:50:30.980 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 11:50:30.980 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 11:50:30.980 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 11:50:31.028 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 11:50:31.028 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 11:50:41.034 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 11:50:41.064 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 11:50:45.590 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: CPE9GQ
+2025-08-11 11:50:45.591 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 11:50:45.945 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 11:50:46.009 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 11:50:50.250 [main] INFO  pages.web.WebLoginPage - Login confirmed: account avatar visible
+2025-08-11 11:50:50.251 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 11:50:50.274 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 11:50:50.451 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 11:50:50.637 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 11:50:50.638 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 12:01:29.609 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 12:01:29.989 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 12:01:29.989 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 12:02:30.735 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 12:02:35.867 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 12:02:35.867 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 12:02:35.867 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 12:02:35.977 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 12:02:35.983 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 12:02:35.986 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 12:02:35.986 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 12:02:35.986 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 12:02:35.986 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 12:02:36.365 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 12:02:36.366 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 12:02:37.911 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 12:02:37.911 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 12:02:37.911 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 12:02:37.912 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 12:02:38.150 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 12:02:39.322 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 12:02:39.323 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 12:02:39.323 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 12:02:54.944 [main] INFO  pages.ios.IOSLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 12:02:54.945 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 12:02:54.945 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 12:03:15.699 [main] ERROR pages.ios.IOSLoginPage - Failed to click 'Continue with email': Expected condition failed: waiting for element to be clickable: AppiumBy.accessibilityId: ai_email_authentication_button (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {appium:autoLaunch: true, appium:automationName: XCUITest, appium:bundleId: com.booking.BookingApp, appium:databaseEnabled: false, appium:deviceName: iPhone 16 Pro, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 18.5, appium:takesScreenshot: true, appium:udid: 00008140-001220243407001C, appium:updatedWDABundleId: com.facebook.WebDriverAgent..., appium:wdaStartupRetries: 4, appium:wdaStartupRetryInterval: 20000, appium:webStorageEnabled: false, appium:xcodeOrgId: B8756V776V, appium:xcodeSigningId: iPhone Developer, platformName: IOS}
+Session ID: 4a15b34a-e4bc-46d2-89a7-3989fbbe6d48
+2025-08-11 12:03:15.734 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 12:03:15.978 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 12:03:16.007 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 12:03:16.008 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 12:07:48.890 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 12:07:54.892 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 12:07:54.893 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 12:07:54.893 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 12:07:55.030 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 12:07:55.036 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 12:07:55.040 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 12:07:55.041 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 12:07:55.041 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 12:07:55.041 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 12:07:59.778 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 12:07:59.779 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 12:08:01.217 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 12:08:01.218 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 12:08:01.219 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 12:08:01.219 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 12:08:01.595 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 12:08:02.955 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 12:08:04.085 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 12:08:04.086 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 12:08:04.087 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 12:08:05.703 [main] INFO  pages.ios.IOSLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 12:08:05.703 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 12:08:05.704 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 12:08:07.436 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 12:08:07.437 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 12:08:17.446 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 12:08:17.480 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 12:08:22.598 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: CPE9GQ
+2025-08-11 12:08:22.598 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 12:08:34.034 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in secure field (OTP container)
+2025-08-11 12:08:35.651 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 12:08:35.652 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 12:08:56.413 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 12:08:56.447 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 12:08:56.684 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 12:08:56.713 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 12:08:56.713 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:24:59.746 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:25:06.292 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 13:25:06.293 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 13:25:06.293 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:25:06.394 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:25:06.402 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:25:06.406 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 13:25:06.407 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:25:06.407 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 13:25:06.407 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:25:06.783 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:25:06.784 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:25:08.324 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 13:25:08.325 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:25:08.326 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 13:25:08.326 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 13:25:08.717 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 13:25:10.011 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 13:25:11.077 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 13:25:11.077 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 13:25:11.077 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 13:25:12.686 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 13:25:12.687 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:25:12.687 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:25:14.495 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 13:25:14.495 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:25:24.502 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:25:24.541 [main] INFO  utils.EmailService - Email code fetch started (account=i***1@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:25:27.162 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: R9C7DW
+2025-08-11 13:25:27.163 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:25:38.629 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in secure field (OTP container)
+2025-08-11 13:25:40.414 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 13:25:40.415 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 13:26:01.113 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:26:01.148 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:26:01.409 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:26:01.444 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:26:01.444 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:27:25.184 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:27:29.246 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 13:27:30.434 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 13:27:30.434 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:27:30.529 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:27:30.551 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:27:30.551 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 13:27:30.552 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:27:30.552 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 13:27:30.553 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:27:33.602 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:27:33.602 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:27:35.638 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 13:27:35.639 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:27:35.640 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 13:27:35.640 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 13:27:35.924 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 13:27:35.924 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:27:35.924 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:27:36.493 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 13:27:36.495 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:27:46.529 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:27:46.592 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:27:47.536 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:27:52.642 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: Y3MR7U
+2025-08-11 13:27:52.644 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:27:52.985 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 13:27:53.041 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 13:27:58.165 [main] INFO  pages.web.WebLoginPage - Login confirmed: account avatar visible
+2025-08-11 13:27:58.166 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:27:58.223 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:27:58.563 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:27:58.862 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:27:58.863 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:28:11.512 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 13:28:11.513 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 13:28:11.513 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:28:11.593 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:28:11.599 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:28:11.603 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 13:28:11.604 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:28:11.604 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 13:28:11.604 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:28:11.916 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:28:11.916 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:28:13.315 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 13:28:13.315 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:28:13.315 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 13:28:13.316 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 13:28:13.568 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 13:28:14.871 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 13:28:15.970 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 13:28:15.970 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 13:28:15.971 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 13:28:23.083 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 13:28:23.084 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:28:23.084 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:28:24.114 [main] ERROR pages.ios.IOSLoginPage - Failed to click email 'Continue': Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [27ac7aee-4494-425f-af46-6b7b99e745e2, clickElement {id=1C010000-0000-0000-CF41-000000000000}]
+Capabilities {appium:autoLaunch: true, appium:automationName: XCUITest, appium:bundleId: com.booking.BookingApp, appium:databaseEnabled: false, appium:deviceName: iPhone 16 Pro, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 18.5, appium:takesScreenshot: true, appium:udid: 00008140-001220243407001C, appium:updatedWDABundleId: com.facebook.WebDriverAgent..., appium:wdaStartupRetries: 4, appium:wdaStartupRetryInterval: 20000, appium:webStorageEnabled: false, appium:xcodeOrgId: B8756V776V, appium:xcodeSigningId: iPhone Developer, platformName: IOS}
+Element: [[IOSDriver:  on IOS (27ac7aee-4494-425f-af46-6b7b99e745e2)] -> accessibility id: ai_sign_in_email_continue_button]
+Session ID: 27ac7aee-4494-425f-af46-6b7b99e745e2
+2025-08-11 13:28:24.150 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:28:25.199 [main] ERROR tests.ui.BaseTest - Failed to capture screenshot: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [27ac7aee-4494-425f-af46-6b7b99e745e2, screenshot {}]
+Capabilities {appium:autoLaunch: true, appium:automationName: XCUITest, appium:bundleId: com.booking.BookingApp, appium:databaseEnabled: false, appium:deviceName: iPhone 16 Pro, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 18.5, appium:takesScreenshot: true, appium:udid: 00008140-001220243407001C, appium:updatedWDABundleId: com.facebook.WebDriverAgent..., appium:wdaStartupRetries: 4, appium:wdaStartupRetryInterval: 20000, appium:webStorageEnabled: false, appium:xcodeOrgId: B8756V776V, appium:xcodeSigningId: iPhone Developer, platformName: IOS}
+Session ID: 27ac7aee-4494-425f-af46-6b7b99e745e2
+2025-08-11 13:28:25.268 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:28:25.268 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:30:07.803 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:30:07.806 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:30:12.056 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 13:30:13.741 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 13:30:13.741 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:30:13.880 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:30:13.899 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:30:13.899 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 13:30:13.901 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:30:13.901 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 13:30:13.901 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:30:13.960 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:30:13.960 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:30:14.057 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 13:30:14.057 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 13:30:14.057 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:30:14.197 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:30:14.211 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:30:14.234 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 13:30:14.236 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:30:14.236 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 13:30:14.236 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:30:14.589 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:30:14.590 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:30:15.882 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 13:30:15.884 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:30:15.885 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 13:30:15.885 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 13:30:15.913 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 13:30:15.914 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:30:15.915 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 13:30:15.915 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 13:30:16.104 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 13:30:16.104 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:30:16.104 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:30:16.113 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 13:30:16.641 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 13:30:16.641 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:30:17.369 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 13:30:18.404 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 13:30:18.404 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 13:30:18.405 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 13:30:20.046 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 13:30:20.047 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:30:20.048 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:30:21.766 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 13:30:21.769 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:30:26.645 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:30:26.679 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:30:31.775 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:30:31.798 [main] INFO  utils.EmailService - Email code fetch started (account=i***1@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:30:32.251 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: JRTW73
+2025-08-11 13:30:32.252 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:30:32.528 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 13:30:32.568 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 13:30:34.621 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: VFQF3N
+2025-08-11 13:30:34.621 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:30:37.263 [main] INFO  pages.web.WebLoginPage - Login confirmed: account avatar visible
+2025-08-11 13:30:37.264 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:30:37.302 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:30:37.931 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:30:38.271 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:30:38.272 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:30:47.001 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in secure field (OTP container)
+2025-08-11 13:30:48.710 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 13:30:48.711 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 13:31:09.396 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:31:09.435 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:31:09.683 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:31:09.717 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:31:09.717 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:47:51.687 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:47:51.690 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:47:56.509 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 13:47:58.985 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 13:47:58.986 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:47:59.130 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:47:59.139 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:47:59.140 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 13:47:59.140 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:47:59.141 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 13:47:59.141 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:47:59.180 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:47:59.180 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:47:59.696 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 13:47:59.697 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 13:47:59.697 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:47:59.849 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:47:59.856 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:47:59.861 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 13:47:59.864 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:47:59.864 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 13:47:59.864 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:48:00.224 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:48:00.224 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:48:00.954 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 13:48:00.957 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:48:00.958 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 13:48:00.958 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 13:48:01.242 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 13:48:01.242 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:48:01.242 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:48:01.590 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 13:48:01.591 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:48:01.598 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 13:48:01.599 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 13:48:01.856 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 13:48:01.897 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 13:48:01.901 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:48:01.901 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:48:03.058 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 13:48:04.195 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 13:48:04.195 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 13:48:04.195 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 13:48:05.877 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 13:48:05.878 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:48:05.878 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:48:07.635 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 13:48:07.635 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:48:07.635 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:48:11.938 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:48:17.694 [main] INFO  utils.EmailService - Email code fetch started (account=i***1@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:48:17.874 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 13:48:17.877 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=TPWQK6
+2025-08-11 13:48:17.877 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:48:18.220 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 13:48:18.263 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 13:48:21.430 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 13:48:21.432 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=VFQF3N
+2025-08-11 13:48:21.433 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:48:22.773 [main] INFO  pages.web.WebLoginPage - Login confirmed: account avatar visible
+2025-08-11 13:48:22.774 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:48:22.793 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:48:23.017 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:48:23.348 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:48:23.348 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:48:32.904 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in secure field (OTP container)
+2025-08-11 13:48:34.537 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 13:48:34.538 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 13:48:55.303 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:48:55.334 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:48:55.558 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:48:55.587 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:48:55.588 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:55:53.255 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:55:53.256 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 13:55:57.461 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 13:55:58.407 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 13:55:58.407 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:55:58.497 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:55:58.506 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:55:58.507 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 13:55:58.507 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 13:55:58.508 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 13:55:58.508 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:55:59.522 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 13:55:59.522 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 13:55:59.522 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 13:55:59.622 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 13:55:59.627 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:55:59.637 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 13:55:59.638 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 13:55:59.638 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 13:55:59.638 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 13:56:00.729 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:56:00.734 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:56:01.481 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 13:56:01.481 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 13:56:02.316 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 13:56:02.318 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:56:02.328 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 13:56:02.329 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 13:56:02.566 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 13:56:03.715 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 13:56:03.892 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 13:56:03.893 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 13:56:03.893 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 13:56:04.126 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 13:56:04.690 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 13:56:04.813 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:56:04.813 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:56:05.008 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 13:56:05.166 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:56:05.167 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:56:05.688 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 13:56:05.865 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 13:56:05.866 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 13:56:07.481 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 13:56:07.482 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 13:56:07.482 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 13:56:09.462 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 13:56:09.662 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 13:56:09.663 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 13:56:15.299 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:56:19.689 [main] INFO  utils.EmailService - Email code fetch started (account=i***1@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 13:56:22.098 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 13:56:22.099 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=WY776Y
+2025-08-11 13:56:22.100 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:56:23.937 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 13:56:23.938 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=FUMF9W
+2025-08-11 13:56:23.938 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 13:56:24.515 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 13:56:24.740 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 13:56:29.739 [main] INFO  pages.web.WebLoginPage - Login confirmed: account avatar visible
+2025-08-11 13:56:30.045 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:56:30.078 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:56:30.307 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:56:30.612 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:56:30.612 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 13:56:53.530 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in single iOS field by label
+2025-08-11 13:56:55.742 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 13:56:55.950 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 13:57:16.639 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 13:57:16.675 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 13:57:16.878 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 13:57:16.920 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 13:57:16.920 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 14:07:48.512 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 14:07:48.526 [main] INFO  tests.ui.BaseTest - Starting test setup...
+2025-08-11 14:07:54.285 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=web, Remote=false
+2025-08-11 14:07:56.175 [main] INFO  tests.ui.BaseTest - Navigated to: https://www.booking.com
+2025-08-11 14:07:56.178 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 14:07:56.776 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 14:07:56.786 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 14:07:56.786 [main] INFO  pages.web.WebHomePage - WebHomePage initialized
+2025-08-11 14:07:56.787 [main] DEBUG pages.web.WebBasePage - WebBasePage initialized
+2025-08-11 14:07:56.787 [main] INFO  pages.web.WebLoginPage - WebLoginPage initialized
+2025-08-11 14:07:56.787 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 14:07:56.898 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 14:07:56.898 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 14:07:57.251 [main] INFO  core.DriverFactory - Driver initialized successfully: Platform=ios, Remote=false
+2025-08-11 14:07:57.252 [main] INFO  tests.ui.BaseTest - iOS platform - App already launched, skipping URL navigation
+2025-08-11 14:07:57.252 [main] INFO  tests.ui.BaseTest - Test setup completed successfully
+2025-08-11 14:07:57.456 [main] INFO  tests.ui.BaseTest - TEST STEP: Starting login flow test
+2025-08-11 14:07:57.474 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 14:07:57.490 [main] INFO  pages.ios.IOSHomePage - IOSHomePage initialized
+2025-08-11 14:07:57.493 [main] DEBUG pages.ios.IOSBasePage - IOSBasePage initialized
+2025-08-11 14:07:57.493 [main] INFO  pages.ios.IOSLoginPage - IOSLoginPage initialized
+2025-08-11 14:07:57.493 [main] INFO  tests.ui.BaseTest - TEST STEP: Verifying home page is loaded
+2025-08-11 14:07:57.847 [main] INFO  tests.ui.BaseTest - TEST INFO: Home page verified successfully
+2025-08-11 14:07:57.847 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking sign in button
+2025-08-11 14:07:59.068 [main] INFO  pages.web.WebHomePage - Clicked sign in button
+2025-08-11 14:07:59.146 [main] INFO  pages.ios.IOSHomePage - Clicked iOS sign in button
+2025-08-11 14:07:59.147 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 14:07:59.147 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: ios
+2025-08-11 14:07:59.147 [main] INFO  tests.ui.BaseTest - TEST STEP: Handling iOS login flow
+2025-08-11 14:07:59.205 [main] INFO  tests.ui.BaseTest - TEST INFO: Sign in button clicked
+2025-08-11 14:07:59.205 [main] INFO  tests.ui.BaseTest - TEST INFO: Current platform: web
+2025-08-11 14:07:59.205 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: testbugovski@gmail.com
+2025-08-11 14:07:59.371 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Sign in or register'
+2025-08-11 14:07:59.947 [main] INFO  pages.web.WebLoginPage - Entered email: testbugovski@gmail.com
+2025-08-11 14:08:00.128 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 14:08:00.128 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 14:08:00.396 [main] INFO  pages.web.WebLoginPage - Clicked 'Continue with email' (localized)
+2025-08-11 14:08:00.609 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 14:08:00.609 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 14:08:00.810 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Sign in or register' button
+2025-08-11 14:08:02.388 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue with email' option
+2025-08-11 14:08:02.571 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Sign in or register' clicked
+2025-08-11 14:08:02.572 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering email: iosbooking1@gmail.com
+2025-08-11 14:08:04.191 [main] INFO  pages.ios.IOSLoginPage - Entered email: iosbooking1@gmail.com
+2025-08-11 14:08:04.192 [main] INFO  tests.ui.BaseTest - TEST INFO: Email entered successfully
+2025-08-11 14:08:04.192 [main] INFO  tests.ui.BaseTest - TEST STEP: Clicking 'Continue with email'
+2025-08-11 14:08:05.776 [main] INFO  pages.ios.IOSLoginPage - Clicked 'Continue' on email entry page
+2025-08-11 14:08:05.985 [main] INFO  tests.ui.BaseTest - TEST INFO: 'Continue with email' clicked
+2025-08-11 14:08:05.985 [main] INFO  tests.ui.BaseTest - TEST STEP: Email verification enabled - fetching code from inbox
+2025-08-11 14:08:10.633 [main] INFO  utils.EmailService - Email code fetch started (account=t***i@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 14:08:16.016 [main] INFO  utils.EmailService - Email code fetch started (account=i***1@gmail.com, from='noreply-iam@booking.com', subject='', timeout=180s)
+2025-08-11 14:08:16.757 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 14:08:16.757 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=WY776Y
+2025-08-11 14:08:16.757 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 14:08:18.699 [main] INFO  pages.web.WebLoginPage - Entered verification code into 6 separate inputs
+2025-08-11 14:08:18.875 [main] INFO  pages.web.WebLoginPage - Clicked Verify email button
+2025-08-11 14:08:19.992 [main] INFO  tests.ui.BaseTest - TEST INFO: Verification code received: ******
+2025-08-11 14:08:19.993 [main] WARN  tests.ui.BaseTest - TEST WARNING: [DEBUG_ONLY] OTP=K4HH4X
+2025-08-11 14:08:19.993 [main] INFO  tests.ui.BaseTest - TEST STEP: Entering verification code
+2025-08-11 14:08:31.614 [main] INFO  pages.ios.IOSLoginPage - Entered verification code in secure field (OTP container)
+2025-08-11 14:08:33.785 [main] INFO  pages.ios.IOSLoginPage - Tapped 'Verify email' button (iOS)
+2025-08-11 14:08:33.990 [main] DEBUG core.WaitHelper - Waiting for element to be visible: AppiumBy.iOSNsPredicate: name CONTAINS 'Account' OR name CONTAINS 'Profile' OR label CONTAINS 'Account'
+2025-08-11 14:08:39.715 [main] WARN  pages.web.WebLoginPage - Account avatar not visible after verification: Expected condition failed: waiting for visibility of element located by By.cssSelector: button[aria-label='Account menu'], [data-testid='header-profile'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/6s/tp5k3vcx2gg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9bbe119012489d28bec86a7e13baf9c
+2025-08-11 14:08:39.721 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 14:08:39.866 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 14:08:40.594 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 14:08:41.305 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 14:08:41.305 [main] INFO  tests.ui.BaseTest - Test cleanup completed
+2025-08-11 14:08:54.740 [main] INFO  tests.ui.BaseTest - TEST INFO: Login flow executed
+2025-08-11 14:08:54.787 [main] INFO  tests.ui.BaseTest - Starting test cleanup...
+2025-08-11 14:08:55.052 [main] INFO  tests.ui.BaseTest - Screenshot captured successfully
+2025-08-11 14:08:55.090 [main] INFO  core.DriverFactory - WebDriver closed successfully
+2025-08-11 14:08:55.090 [main] INFO  tests.ui.BaseTest - Test cleanup completed

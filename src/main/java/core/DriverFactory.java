@@ -51,6 +51,16 @@ public class DriverFactory {
                 } else {
                     driver = createLocalDriver(browserType);
                 }
+                // Anti-detection: hide navigator.webdriver via CDP on Chrome
+                try {
+                    if (driver instanceof org.openqa.selenium.chrome.ChromeDriver) {
+                        java.util.Map<String, Object> params = new java.util.HashMap<>();
+                        params.put("source", "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})");
+                        ((org.openqa.selenium.chrome.ChromeDriver) driver)
+                                .executeCdpCommand("Page.addScriptToEvaluateOnNewDocument", params);
+                    }
+                } catch (Exception ignored) {
+                }
                 // Maximize window for web
                 driver.manage().window().maximize();
                 break;
@@ -130,17 +140,25 @@ public class DriverFactory {
         if (ConfigReader.isHeadless()) {
             options.addArguments("--headless=new");
         }
-        
+        // Minimal argümanlar
         options.addArguments(
             "--no-sandbox",
             "--disable-dev-shm-usage",
-            "--disable-gpu",
-            "--window-size=1920,1080",
-            "--disable-extensions",
-            "--disable-web-security",
-            "--allow-running-insecure-content"
+            "--disable-blink-features=AutomationControlled"
         );
-        
+
+        // Anti-automation bayrakları
+        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+        options.setExperimentalOption("useAutomationExtension", false);
+
+        // Her çalıştırmada benzersiz geçici profil kullan (profil kilidi hatasını engeller, CAPTCHA riskini azaltır)
+        try {
+            java.nio.file.Path tempProfile = java.nio.file.Files.createTempDirectory("selenium-chrome-profile-");
+            options.addArguments("--user-data-dir=" + tempProfile.toString());
+            options.addArguments("--profile-directory=Default");
+        } catch (Exception ignored) {
+        }
+
         return options;
     }
 

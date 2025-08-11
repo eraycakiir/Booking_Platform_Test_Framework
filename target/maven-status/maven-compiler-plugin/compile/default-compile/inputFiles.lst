@@ -1,12 +1,15 @@
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/core/ConfigReader.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/core/WaitHelper.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/ios/IOSLoginPage.java
+/Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/interfaces/IEmailService.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/enums/BrowserType.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/enums/PlatformType.java
+/Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/utils/EmailService.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/interfaces/ILoginPage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/ios/IOSHomePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/enums/Environment.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/ios/IOSBasePage.java
+/Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/utils/TestHelper.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/pages/web/WebBasePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/interfaces/IHomePage.java
 /Users/eraycakir/Desktop/Booking_Platform_Test_Framework/src/main/java/factory/PageFactory.java

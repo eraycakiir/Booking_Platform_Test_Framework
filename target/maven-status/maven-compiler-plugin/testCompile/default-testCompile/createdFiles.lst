@@ -2,4 +2,3 @@ tests/ui/BaseTest.class
 tests/ui/LoginTest.class
 listeners/ScreenshotListener.class
 listeners/LoggerListener.class
-tests/ui/LoginFlowTest.class

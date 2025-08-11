@@ -1,14 +1,7 @@
-factory/PageFactory$1.class
-pages/web/WebBasePage.class
-enums/PlatformType.class
 core/WaitHelper.class
 core/ConfigReader.class
-pages/BasePage.class
-pages/ios/IOSLoginPage.class
 pages/web/WebHomePage.class
-core/DriverFactory$1.class
 core/DriverFactory.class
-enums/BrowserType.class
 interfaces/IHomePage.class
 pages/web/WebLoginPage.class
 factory/PageFactory.class
@@ -16,3 +9,10 @@ pages/ios/IOSBasePage.class
 enums/Environment.class
 pages/ios/IOSHomePage.class
 interfaces/ILoginPage.class
+factory/PageFactory$1.class
+pages/web/WebBasePage.class
+enums/PlatformType.class
+pages/BasePage.class
+pages/ios/IOSLoginPage.class
+core/DriverFactory$1.class
+enums/BrowserType.class

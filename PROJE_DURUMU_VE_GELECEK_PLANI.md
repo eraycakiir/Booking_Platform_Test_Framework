@@ -31,12 +31,13 @@
   - iPhone 16 Pro (iOS 18.5) ile test edildi ✅
 
 #### 3. Core Framework Components
-- ✅ **DriverFactory:** Platform-aware driver management
-- ✅ **ConfigReader:** Konfigürasyon yönetimi
-- ✅ **WaitHelper:** Cross-platform wait strategies
+- ✅ **DriverFactory:** Platform-aware driver management (Web + iOS)
+- ✅ **ConfigReader:** Config & platform override (`-Dplatform` desteği)
+- ✅ **WaitHelper:** Cross-platform wait utilities
 - ✅ **BaseTest:** Platform-independent test base class
+- ✅ **Allure Evidence:** Step-level screenshot attachments
 
-### 🧪 Test Implementasyonu (90% Tamamlandı)
+### 🧪 Test Implementasyonu (100% Tamamlandı)
 
 #### 1. Login Flow Tests ✅
 - ✅ **Web Flow:** Chrome → Booking.com → Sign In → Email Entry
@@ -44,7 +45,7 @@
 - ✅ **Platform Detection:** Otomatik platform algılama
 - ✅ **Same Test Code:** Her iki platformda aynı test kodu çalışıyor
 
-#### 2. Test Sonuçları
+#### 2. Test Sonuçları (Örnek)
 ```
 Web Test Sonucu:
 ✅ Home page verified successfully
@@ -81,16 +82,23 @@ iOS Test Sonucu:
 
 #### 3. Platform Configuration
 - ✅ **Web Config:** Chrome, Booking.com URL
-- ✅ **iOS Config:** Appium server, device settings
-- ✅ **Dynamic Platform Switching:** config.properties'te platform değiştirme
+- ✅ **iOS Config:** Appium server, device settings (real device)
+- ✅ **Dynamic Platform Switching:** `-Dplatform=web|ios` (config fallback)
 
-### 📋 Code Quality & Architecture (95% Tamamlandı)
+### 📋 Code Quality & Architecture (100% Tamamlandı)
 
 #### 1. Code Sharing Analysis
 - ✅ **Test Logic:** %100 ortak kod
 - ✅ **Framework Core:** %100 ortak kod
 - ✅ **Page Logic:** %90 ortak kod (sadece locator'lar farklı)
 - ✅ **Overall:** %85-90 kod paylaşımı
+
+### ✉️ Email OTP Otomasyonu
+- ✅ **EmailService (IMAP/Jakarta Mail):** Subject+body tarama, 6 karakter alfasayısal OTP, en yeni mail seçimi, `initialDelaySeconds` desteği
+- ✅ **Güvenli Log:** OTP info’da maskeli, debug uyarısında tam kod
+- ✅ **Platform Bazlı Hesaplar:** `email.web.*` ve `email.ios.*` + enable bayrakları
+- ✅ **Test Entegrasyonu:** `tests.ui.LoginTest` tek sınıftan Web+iOS login + OTP girişi
+- ✅ **Paralel Koşu:** Web ve iOS aynı anda; Allure sonuçları ayrık klasörlerde toplanıp birleştiriliyor
 
 #### 2. Design Patterns
 - ✅ **Page Object Model**
@@ -101,12 +109,7 @@ iOS Test Sonucu:
 ---
 
 ## 🚧 DEVAM EDEN İŞLER
-
-### 1. Email Verification Flow (50% Tamamlandı)
-- ✅ Email girişi yapıldı
-- ❌ **Gmail entegrasyonu** (kod alma)
-- ❌ **Verification code girişi**
-- ❌ **Login completion**
+- Allure raporlarını tek komutta üretim/serve akışının stabilize edilmesi
 
 ---
 
@@ -251,9 +254,9 @@ WebBookingPage.java / IOSBookingPage.java
 ## 🔥 KRİTİK NOTLAR
 
 ### Technical Debt
-1. **iOS Appium Methods:** IOSBasePage'te commented out methods düzeltilmeli
-2. **WaitHelper Enhancement:** AppiumBy support tam entegre edilmeli
-3. **Error Handling:** Platform-specific exceptions standardize edilmeli
+1. **iOS Success Indicators:** Başarı locator’larının stabilize edilmesi
+2. **Chrome CDP Warning:** Gerekirse selenium-devtools bağımlılığı eklenebilir
+3. **Logging:** SLF4J provider eklenmesi
 
 ### Known Issues
 1. **iOS WebDriverAgent:** Appium version compatibility check

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.ui.LoginFlowTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.11 s -- in tests.ui.LoginFlowTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.35 s -- in tests.ui.LoginFlowTest

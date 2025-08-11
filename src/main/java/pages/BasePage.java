@@ -2,8 +2,12 @@ package pages;
 
 import core.WaitHelper;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import io.qameta.allure.Allure;
+import java.io.ByteArrayInputStream;
 
 /**
  * Abstract base class for all page objects
@@ -44,4 +48,16 @@ public abstract class BasePage {
      * @return true if page is loaded
      */
     public abstract boolean isPageLoaded();
+
+    /**
+     * Attach current screen as Allure attachment for step evidence
+     */
+    protected void attachScreenshot(String name) {
+        try {
+            byte[] bytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            Allure.addAttachment(name, new ByteArrayInputStream(bytes));
+        } catch (Exception e) {
+            logger.warn("Failed to capture screenshot for '{}': {}", name, e.getMessage());
+        }
+    }
 }
